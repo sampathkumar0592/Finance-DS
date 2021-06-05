@@ -32,7 +32,7 @@ def returns(data):
     return(sip_returns)
 
 #..Data Preparations
-nifty = pd.read_csv(r'D:\Sampathkumar.AP\Desktop\Work\Blog stuff\1. SIP Dates\Nifty_prices.csv')
+nifty = pd.read_csv(r'\Nifty_prices.csv')
 nifty['Date'] = pd.to_datetime(nifty['Date'], format = '%d-%m-%Y')
 
 dates = pd.date_range(start= nifty['Date'][0], end= nifty['Date'][len(nifty) - 1], freq='D')
