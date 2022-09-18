@@ -12,7 +12,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # data
-data = pd.read_excel(r'D:\Sampathkumar.AP\Desktop\Work\Blog stuff\Prob Distributions- Simple workings\clt.xlsx')
+data = pd.read_excel(r'\clt.xlsx')
 
 # inputs
 no_samples = 2000
